@@ -73,7 +73,7 @@ function Form() {
           <label> Adjuster's Email Address:</label>
           <input
             id="half-width-item-one"
-            type="email"
+            type="text"
             name="adjEmailAddress"
             value={formData.adjEmailAddress}
             onChange={handleInputChange}
@@ -113,7 +113,7 @@ function Form() {
           <label> Independent Adjuster's Email Address (if applicable):</label>
           <input
             id="half-width-item-one"
-            type="email"
+            type="text"
             name="indAdjEmailAddress"
             value={formData.indAdjEmailAddress}
             onChange={handleInputChange}

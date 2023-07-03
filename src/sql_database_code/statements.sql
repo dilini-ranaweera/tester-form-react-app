@@ -1,0 +1,20 @@
+CREATE TABLE StutmanFormData (
+    referringInsurer VARCHAR(200),
+    adjFirstName VARCHAR(200),
+    adjLasName VARCHAR(200),
+    adjEmailAddress VARCHAR(200),
+    adjPhoneNumber VARCHAR(200),
+    indAdjFirstName VARCHAR(200),
+    indAdjLastName VARCHAR(200),
+    indAdjEmailAddress VARCHAR(200),
+    indAdjPhoneNumber VARCHAR(200),
+    typeOfLoss VARCHAR(100),
+    dateOfLoss VARCHAR(200),
+    lossAmount VARCHAR(200),
+    insuredYN VARCHAR(10),
+    lossLocation VARCHAR(200),
+    claimNumber VARCHAR(200),
+    insuredContactName VARCHAR(200),
+    insuredContactPhoneNumber VARCHAR(200),
+    lossDetails VARCHAR(500)
+);
