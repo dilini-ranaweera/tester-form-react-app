@@ -1,8 +1,8 @@
 //creating AWS entity and configuring it
 const AWS = require("aws-sdk");
 AWS.config.update({
-  accessKeyId: "AKIAXLFX36LS7IRROJSR",
-  secretAccessKey: "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",
+  accessKeyId: "",
+  secretAccessKey: "",
   region: "us-east-2",
 });
 
